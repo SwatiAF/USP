@@ -7,4 +7,4 @@ echo "This month's calendar: "
 cal 'date + %m 20%y' 
 
 echo "my shell: "
-SHELL
+shell
