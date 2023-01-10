@@ -12,8 +12,15 @@ bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ chmod u+x,g+rw,o+rwx workf
 bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ ls -l workfile.txt
 -rwxrw-rwx 1 bmscecse bmscecse 0 Jan 10 12:22 workfile.txt
 
+#Change the file permission of the file to ---xrw-rwx.
+
 bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ chmod 167 workfile.txt
 bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ ls -l workfile.txt
 ---xrw-rwx 1 bmscecse bmscecse 0 Jan 10 12:22 workfile.txt
 
-bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ 
+#Change the file permission of the file to -rwx---r-x.
+
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ chmod 705 workfile.txt
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ ls -l workfile.txt
+-rwx---r-x 1 bmscecse bmscecse 0 Jan 10 12:22 workfile.txt
+
