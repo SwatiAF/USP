@@ -24,3 +24,10 @@ bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ chmod 705 workfile.txt
 bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ ls -l workfile.txt
 -rwx---r-x 1 bmscecse bmscecse 0 Jan 10 12:22 workfile.txt
 
+#Remove all file permission from thefile, so that the file permission is ----------.
+
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ chmod 000 workfile.txt
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ ls -l workfile.txt
+---------- 1 bmscecse bmscecse 0 Jan 10 12:22 workfile.txt
+
+
