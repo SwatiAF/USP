@@ -1,25 +1,5 @@
 ubuntu@ubuntu:~$ nano vowels.sh
 ubuntu@ubuntu:~$ sh vowels.sh
-enter the string: hello world
-expr: syntax error: unexpected argument ‘world’
-vowels.sh: 11: [: -gt: unexpected operator
-the string has 0 vowels
-ubuntu@ubuntu:~$ nano vowels.sh
-ubuntu@ubuntu:~$ sh vowels.sh
-enter the string: lights out
-expr: syntax error: unexpected argument ‘out’
-vowels.sh: 11: [: -gt: unexpected operator
-the string has 0 vowels
-ubuntu@ubuntu:~$ sh vowels.sh
-enter the string: lights
-vowels.sh: 11: [: Illegal number: 6-1
-the string has 0 vowels
-ubuntu@ubuntu:~$ nano vowels.sh
-ubuntu@ubuntu:~$ sh vowels.sh
-enter the string: hellop
-the string has 2 vowels
-ubuntu@ubuntu:~$ lights
-lights: command not found
 ubuntu@ubuntu:~$ sh vowels.sh
 enter the string: lights
 the string has 1 vowels
