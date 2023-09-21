@@ -1,46 +1,17 @@
-bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/LAB3$ script
-Script started, output log file is 'typescript'.
-bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/LAB3$ script LAB3
-Script started, output log file is 'LAB3'.
-bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/LAB3$ ls
+~/LAB3$ ls
 datefile  LAB3  prog1  typescript
-bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/LAB3$ cd LAB3
-bash: cd: LAB3: Not a directory
-bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/LAB3$ nano prog1
-bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/LAB3$ sh prog1
+
+~/LAB3$ nano prog1~/LAB3$ sh prog1
 HELLO WORLD
 USP LAB
-bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/LAB3$ nano datefile
-bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/LAB3$ sh datefile
+
+~/LAB3$ nano datefile
+~/LAB3$ sh datefile
 Today's date: 
 Tuesday 22 November 2022 03:35:29 AM IST
-bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/LAB3$ nano datefile
-bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/LAB3$ sh datefile
-Today's date: 
-Tuesday 22 November 2022 03:36:21 AM IST
-This month's calendar: 
-datefile: 7: cal: not found
-bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/LAB3$ nano datefile
-bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/LAB3$ sh datefile
-Today's date: 
-Tuesday 22 November 2022 03:36:51 AM IST
-This month's calendar: 
-datefile: 7: cal: not found
-bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/LAB3$ nano datefile
-bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/LAB3$ sh datefile
-Today's date: 
-Tuesday 22 November 2022 03:38:18 AM IST
-This month's calendar: 
-datefile: 7: cal: not found
-my shell: 
-datefile: 10: SHELL: not found
-bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/LAB3$ nano patternfile
-bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/LAB3$ nano datefile
-bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/LAB3$ nano patternfile
-bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/LAB3$ gedit emp.lst
 
-^C
-bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/LAB3$ cat emp.lst
+~/LAB3$ gedit emp.lst
+~/LAB3$ cat emp.lst
 emp1 name1 sal1
 emp2 name2 sal2
 emp3 name3 sal3
@@ -48,15 +19,9 @@ emp4 name4 sal4
 emp5 name5 sal5
 emp6 name6 sal6
 emp7 name7 sal7
-bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/LAB3$ nano patternfile
-bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/LAB3$ sh patternfile
-enter the pattern to be searched: 
-emp3
-enter the file name: 
-emp.lst
-patternfile: 6: read: emp.lst: bad variable name
-bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/LAB3$ nano patternfile
-bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/LAB3$ sh patternfile
+
+~/LAB3$ nano patternfile
+~/LAB3$ sh patternfile
 enter the pattern to be searched: 
 emp3
 enter the file name: 
@@ -64,19 +29,7 @@ emp.lst
 search for emp3 from emp.lst
 emp3 name3 sal3
 select records shown above
-bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/LAB3$ nano patternfile
-bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/LAB3$ sh patternfile
-enter the pattern to be searched: 
-^C
-bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/LAB3$ nano patternfile
-bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/LAB3$ sh patternfile
-enter the pattern to be searched: 
-emp3
-enter the file name: 
-emp.lst
-search for emp3 from emp.lst
-emp3 name3 sal3
-select records shown above
+
 bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/LAB3$ nano patternfile
 bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/LAB3$ echo "non-interactive pattern search"
 non-interactive pattern search
@@ -88,27 +41,16 @@ enter the file name:
 emp.lst
 searching for emp2 from file emp.lst
 emp2 name2 sal2
-bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/LAB3$ nano pattern2
-bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/LAB3$ sh pattern2
-pattern to search: 
-pattern2: 4: emp2: not found
-pattern2: 5: emp.lst: not found
-file name: 
-searching for  from file 
-bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/LAB3$ nano pattern2
-bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/LAB3$ sh pattern2
-pattern2: 3: emp2: not found
-pattern2: 4: emp.lst: not found
-searching for  from file 
+
+
 bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/LAB3$ nano pattern2
 bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/LAB3$ sh pattern2
 Program: pattern2 The number of args is 0. the arguments are 
 emp2 sal2
 emp2 sal2
 
-
-
 job over
+
 bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/LAB3$ pattern2.sh direct emp.lst
 pattern2.sh: command not found
 bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/LAB3$ sh pattern2
